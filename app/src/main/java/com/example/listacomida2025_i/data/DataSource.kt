@@ -3,15 +3,15 @@ package com.example.listacomida2025_i.data
 import com.example.listacomida2025_i.R
 import com.example.listacomida2025_i.model.Platillo
 
-public class DataSource {
-    fun loadPlatillos(): List<Platillo>{
-        return listOf<Platillo>(
-            Platillo(R.string.desayuno, R.drawable.desayuno ),
-            Platillo(R.string.hamburger,R.drawable.hamburger),
-            Platillo(R.string.pizza,R.drawable.pizza),
-            Platillo(R.string.postre,R.drawable.postre),
-            Platillo(R.string.pozole,R.drawable.pozole),
-            Platillo(R.string.tacos,R.drawable.tacos)
-        )
-    }
+
+object DataSource{
+    val platillos = listOf(
+        Platillo(R.string.desayuno, precio = 65.0, descuento = true, name = R.drawable.desayuno.toString()),
+        Platillo(R.string.hamburger, precio = 50.0, descuento = true, name = R.drawable.hamburger.toString()),
+        Platillo(R.string.pizza, precio = 115.0, descuento = true, name = R.drawable.pizza.toString()),
+        Platillo(R.string.postre, precio = 45.0, descuento = true, name = R.drawable.postre.toString()),
+        Platillo(R.string.pozole, precio = 75.0, descuento = true, name = R.drawable.pozole.toString()),
+        Platillo(R.string.tacos, precio = 20.0, descuento = true, name = R.drawable.tacos.toString())
+    )
 }
+
