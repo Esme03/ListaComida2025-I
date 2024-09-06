@@ -11,7 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.res.stringResource
+
 import androidx.compose.ui.unit.dp
 import com.example.listacomida2025_i.R
 
@@ -23,7 +23,7 @@ fun MenuTopAppBar(modifier: Modifier = Modifier){
         verticalAlignment = Alignment.CenterVertically
     ){
         Image(painter = painterResource(id = R.drawable.logoappcom)
-            , contentDescription = null
+            ,contentDescription = null
             ,modifier = modifier
                 .padding(8.dp)
                 .size(64.dp)

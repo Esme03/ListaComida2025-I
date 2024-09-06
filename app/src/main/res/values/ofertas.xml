@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="oferta_desayuno">¡15% de descuento antes de las 12pm!</string>
+    <string name="oferta_hamburger">¡Aprovecha 20% de descuento al llevarte la segunda!</string>
+    <string name="oferta_pizza">¡Adquiere con 25% de descuento!</string>
+    <string name="oferta_postre">¡Para endulzarte un 10% de descuento!</string>
+    <string name="oferta_pozole">¡En estas fiestas te damos 20% de descuento!</string>
+    <string name="oferta_tacos">¡Ni en el metro 3x25!</string>
+</resources>
